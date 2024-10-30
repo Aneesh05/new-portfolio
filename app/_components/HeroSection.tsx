@@ -16,16 +16,13 @@ const HeroSection = () => {
         id="#home"
       >
         <div className="flex flex-col justify-center items-center relative z-10 text-center">
-          <p className="uppercase font-bold text-sm tracking-widest">
-            Based In Markham / Ottawa
-          </p>
           {/* Text effect component */}
           <TextGenerateEffect
-            words="Welcome to my portfolio"
-            className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide"
+            words="Hi! My name is Aneesh Ereddy"
+            className="text-[30px] md:text-6xl lg:text-7xl font-bold text-center max-w-6xl leading-snug tracking-wide"
           />
           <p className="pt-5 pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
-            Hi! My name is Aneesh Ereddy, an aspiring Software Engineer.
+             An Aspiring Software Engineer.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <ShinyButton icon={<ChevronRight />}>
